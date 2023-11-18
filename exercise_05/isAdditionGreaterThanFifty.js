@@ -4,3 +4,15 @@
  * input: number (summand2)
  * output: boolean
  */
+/**
+ * 
+ * @param {number} summand1 
+ * @param {number} summand2 
+ * @returns boolean
+ */
+const isAdditionGreaterThanFifty = function (summand1, summand2) {
+    const result = summand1 + summand2 > 50;
+    return result;
+    }
+
+export default isAdditionGreaterThanFifty;

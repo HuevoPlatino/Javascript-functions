@@ -4,13 +4,17 @@
  * output: number
  */
 /**
- * 
- * @param {number} sentence 
+ *
+ * @param {number} sentence
  * @returns number
  */
 const getTotalWordsFromString = function (sentence) {
+  /**  @returns sentence.split(" ").length; 
     const result = sentence.split(" ").length;
     return result;
-    }
+    */
+  const result = sentence.split(" ").length;
+  return result;
+};
 
 export default getTotalWordsFromString;

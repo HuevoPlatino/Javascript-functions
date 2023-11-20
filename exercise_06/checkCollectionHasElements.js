@@ -4,7 +4,7 @@
  * output: boolean
  */
 /**
- * 
+ * This function retuns true if the collection has elements
  * @param {array} collection 
  * @returns boolean
  */

@@ -5,7 +5,7 @@
  * output: boolean
  */
 /**
- * 
+ * This function returns true if the sum of two numbers is greater than 50
  * @param {number} summand1 
  * @param {number} summand2 
  * @returns boolean

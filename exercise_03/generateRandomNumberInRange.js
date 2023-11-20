@@ -4,7 +4,7 @@
  * output: number
  */
 /**
- * 
+ * This function returns a rounded random number depending on a limit 
  * @param {number} limit 
  * @returns number
  */

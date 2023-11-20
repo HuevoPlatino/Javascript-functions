@@ -5,7 +5,7 @@
  * output: number
  */
 /**
- * 
+ *  This function returns the distance between two numbers
  * @param {number} value 
  * @param {number} threshold 
  * @returns number

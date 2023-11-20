@@ -7,7 +7,7 @@
  * output:
  */
 /**
- * 
+ * This function returns true if the type of value matches the type received as argument
  * @param {string | number | boolean | array } value 
  * @param {string} type 
  * @returns booelan

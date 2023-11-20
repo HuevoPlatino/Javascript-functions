@@ -5,7 +5,7 @@
  * output: boolean
  */
 /**
- * 
+ * This function returns true if the first number is greater than the second one
  * @param {number} value 
  * @param {number} threshold 
  * @returns boolean

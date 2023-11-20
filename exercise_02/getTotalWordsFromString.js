@@ -4,7 +4,7 @@
  * output: number
  */
 /**
- *
+ * This function returns the total number of words contained in one string.
  * @param {number} sentence
  * @returns number
  */

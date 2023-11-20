@@ -6,13 +6,13 @@
  */
 /**
  * This function returns true if the sum of two numbers is greater than 50
- * @param {number} summand1 
- * @param {number} summand2 
+ * @param {number} summand1
+ * @param {number} summand2
  * @returns boolean
  */
 const isAdditionGreaterThanFifty = function (summand1, summand2) {
-    const result = summand1 + summand2 > 50;
-    return result;
-    }
+  const result = summand1 + summand2 > 50;
+  return result;
+};
 
 export default isAdditionGreaterThanFifty;

@@ -8,8 +8,8 @@
  */
 /**
  * This function returns true if the type of value matches the type received as argument
- * @param {string | number | boolean | array } value 
- * @param {string} type 
+ * @param {string | number | boolean | array } value
+ * @param {string} type
  * @returns booelan
  */
 const isTypeOf = function (value, type) {
@@ -19,6 +19,5 @@ const isTypeOf = function (value, type) {
 
   return typeof value === type;
 };
-
 
 export default isTypeOf;

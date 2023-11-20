@@ -6,13 +6,13 @@
  */
 /**
  *  This function returns the distance between two numbers
- * @param {number} value 
- * @param {number} threshold 
+ * @param {number} value
+ * @param {number} threshold
  * @returns number
  */
-const getDistanceFromThreshold= function (value, threshold) {
-    const result = value - threshold;
-    return result;
-    };
+const getDistanceFromThreshold = function (value, threshold) {
+  const result = value - threshold;
+  return result;
+};
 
 export default getDistanceFromThreshold;

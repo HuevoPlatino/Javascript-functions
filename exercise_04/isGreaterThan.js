@@ -6,13 +6,13 @@
  */
 /**
  * This function returns true if the first number is greater than the second one
- * @param {number} value 
- * @param {number} threshold 
+ * @param {number} value
+ * @param {number} threshold
  * @returns boolean
  */
 const isGreaterThan = function (value, threshold) {
-    const result = value > threshold;
-    return result;
-    }
+  const result = value > threshold;
+  return result;
+};
 
 export default isGreaterThan;

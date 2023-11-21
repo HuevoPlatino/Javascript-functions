@@ -4,8 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "lint": "npx prettier --check",
-    "lint:fix": "npx prettier --write"
+    "lint": "npx prettier . --check",
+    "lint:fix": "npx prettier . --write"
   },
   "keywords": [],
   "author": "",

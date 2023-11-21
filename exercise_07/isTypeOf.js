@@ -6,3 +6,18 @@
  * input: boolean (type)
  * output:
  */
+/**
+ * This function returns true if the type of value matches the type received as argument
+ * @param {string | number | boolean | array } value
+ * @param {string} type
+ * @returns booelan
+ */
+const isTypeOf = function (value, type) {
+  if (type === "array") {
+    return Array.isArray(value);
+  }
+
+  return typeof value === type;
+};
+
+export default isTypeOf;

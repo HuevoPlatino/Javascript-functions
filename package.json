@@ -1,0 +1,16 @@
+{
+  "name": "05_JavaScript_functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "npx prettier --check",
+    "lint:fix": "npx prettier --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "Dependencies": {
+    "prettier": "3.0.3"
+  }
+}

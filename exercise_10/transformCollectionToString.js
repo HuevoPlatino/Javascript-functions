@@ -25,10 +25,12 @@ import isTypeOf from "../exercise_07/isTypeOf.js";
  * @returns string
  */
 const transformCollectionToString = function (collection) {
-  const result =
-    isTypeOf(collection, "array") && collection.length > 0
+  const result = isTypeOf(collection, "array")
+  
+    ? collection.length > 0
       ? collection.join(" | ")
-      : "It is empty because the array has no value";
+      : "It is empty because the array has no value"
+    : "Invalid collection type";
   return result;
 };
 

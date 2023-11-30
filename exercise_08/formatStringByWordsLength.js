@@ -20,7 +20,7 @@ import getTotalWordsFromString from "../exercise_02/getTotalWordsFromString.js";
  * output: "this is short one."
  */
 /**
- *
+ * this function will check number of words contained in given string
  * @param {string} sentence
  * @returns string
  */
@@ -32,6 +32,9 @@ const formatStringByWordsLength = function (sentence) {
   if (isGreaterThan5) {
     return sentence.toUpperCase();
   }
+
   return sentence.toLowerCase();
+
 };
+
 export default formatStringByWordsLength;

@@ -1,4 +1,5 @@
 import isTypeOf from "../exercise_07/isTypeOf.js";
+import checkCollectionHasElements from "../exercise_06/checkCollectionHasElements.js";
 /**
  * Write JS function "transformCollectionToString" to transform collection into string
     - if array has elements, then return array as string, joined by '|' (pipe character)
@@ -25,13 +26,14 @@ import isTypeOf from "../exercise_07/isTypeOf.js";
  * @returns string
  */
 const transformCollectionToString = function (collection) {
-  const result = isTypeOf(collection, "array")
+  const collectionArray = isTypeOf(collection, "array");
+  const collectionHasElements = checkCollectionHasElements(collection); 
+
+  if (collectionHasElements) {
+    const result = collection.join(" | ");
+    return result;
+  }
   
-    ? collection.length > 0
-      ? collection.join(" | ")
-      : "It is empty because the array has no value"
-    : "Invalid collection type";
-  return result;
 };
 
 export default transformCollectionToString;
